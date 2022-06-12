@@ -1,0 +1,12 @@
+.pageup {
+	display: none;
+	position: fixed;
+	bottom: 25px;
+	right: 65px;
+	text-decoration: none;
+	span {
+		font-size: 40px;
+		color: $main-color;
+
+	}
+}

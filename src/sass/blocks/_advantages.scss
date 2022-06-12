@@ -1,0 +1,50 @@
+.advantages {
+	min-height: 470px;
+	padding: 70px 0 65px 0;
+	background: #F6F6F6;
+	&__wrapper {
+		margin-top: 65px;
+		display: flex;
+		justify-content: space-between;
+	}
+	&__item {
+		width: 230px;
+	}
+	&__icon {
+		display: block;
+		margin: 0 auto;
+		&_heartbeat {
+			animation: heartbeat 3s ease infinite;
+		}
+		&_cup {
+			animation: cup 3s infinite;
+		}
+		&_shoe {
+			animation: shoe 3s infinite;
+		}
+		&:hover {
+			animation-play-state: paused;
+		}	
+
+	}
+	&__subtitle {
+		margin-top: 35px;
+		text-align: center;
+		font-weight: 700;
+		font-size: 18px;
+		color: #0D0D0D;
+	}
+	&__descr {
+		margin-top: 20px;
+		font-weight: 300;
+		font-size: 14px;
+		line-height: 18px;
+		text-align: center;
+		color: #0D0D0D;
+		a {
+			color: #FF0000;
+			text-decoration: underline;
+			text-transform: uppercase;
+		}
+	}
+}
